@@ -1,0 +1,65 @@
+/* Complete the CSS styling according to the provided design */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background-image: url("images/image.webp");
+  background-size: cover;
+  text-align: center;
+  backdrop-filter: blur(10px);
+  height: auto;
+}
+
+h1 {
+  color: goldenrod;
+  padding-bottom: 20px;
+}
+
+#message-el {
+  color: white;
+  font-weight: bold;
+  font-size: 35px;
+  font-style: italic;
+  padding: 10px;
+}
+p {
+  color: white;
+  font-weight: 100;
+}
+button {
+  text-decoration: none;
+  opacity: 0.6;
+  border: 2px solid #010100;
+  padding: 15px;
+  color: rgb(55, 55, 55);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  position: relative;
+  display: inline-block;
+  transition: 900ms ease;
+  width: 230px;
+  height: 50px;
+  border-radius: 20px;
+  font-weight: bolder;
+}
+button:hover {
+  cursor: pointer;
+  background-color: rgba(245, 245, 245, 0.793);
+  opacity: 1;
+}
+.btn {
+  padding: 5px;
+}
+.box {
+  margin: auto;
+  height: 100vh;
+  width: 30%;
+  background-color: rgba(148, 149, 149, 0.463);
+}
+.main {
+  margin-top: 30%;
+}
