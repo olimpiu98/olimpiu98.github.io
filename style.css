@@ -1,0 +1,80 @@
+body {
+  background-image: url("https://i.redd.it/n93k6oc2wab71.png");
+  background-attachment: fixed;
+  background-size: cover;
+  color: #fff;
+  min-height: 100vh;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  backdrop-filter: blur(7px);
+}
+
+.logo {
+  width: 120px;
+  border-radius: 5%;
+}
+
+a.featured:hover {
+  background-color: #c43232be;
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+a:hover {
+  background-color: #0cd1969c;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+a {
+  background-color: #030c098d;
+  display: block;
+  max-width: 400px;
+  margin: 0 auto 15px;
+  padding: 15px 20px;
+  font-size: 0.85rem;
+  color: #fff;
+  border: 2px solid #ffffff6f;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+}
+
+a.featured {
+  position: relative;
+  background-color: #ff54545e;
+  border: 2px solid #ffffff6f;
+  color: #fff;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+
+.social {
+  display: flex;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.social a {
+  flex: 1;
+  padding: 10px 10px;
+  margin-right: 10px;
+  color: #fff;
+  border: 2px solid #ffffff6f;
+}
+
+/* Last link margin = 0 */
+
+.social a:last-child {
+  margin-right: 0;
+}
+
+.twitter:hover {
+  background-color: #5e73a1bd;
+  border: 2px solid #fff;
+}
