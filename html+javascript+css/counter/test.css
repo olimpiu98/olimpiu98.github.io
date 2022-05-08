@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: bold;
+  text-align: center;
+  -webkit-filter: blur(0px);
+  -moz-filter: blur(0px);
+  -o-filter: blur(0px);
+  -ms-filter: blur(13px);
+  filter: blur(0px);
+}
+h1 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+h2 {
+  font-size: 50px;
+  margin-top: 0;
+  margin-bottom: 20px;
+  color: rgba(18, 3, 3, 0.6);
+}
+
+button {
+  border: 1px solid rgba(0, 0, 0, 0.296);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  width: 165;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.btn {
+  opacity: 0.5;
+}
+.btn:hover {
+  opacity: 1;
+  transition: 0.3s;
+}
+
+#increment-btn {
+  background: rgb(80, 180, 14);
+}
+
+#save-btn {
+  background: rgb(158, 145, 4);
+}
+
+#shutdown-btn {
+  background: rgb(107, 2, 2);
+}
+.bg {
+  background: url("station.jpg");
+  background-position: center;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  filter: blur(4px);
+}
+.box {
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  background-color: rgba(240, 248, 255, 0.688);
+  width: 300px;
+  display: inline-block;
+  margin-top: 15vh;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 9999;
+  -webkit-filter: blur(0px);
+  -moz-filter: blur(0px);
+  -o-filter: blur(0px);
+  -ms-filter: blur(13px);
+  filter: blur(0px);
+}
