@@ -33,8 +33,19 @@
           blackjack</a>
       </div>
     </div>
-
     <button onclick="togglePopup()">html, css & javascript</button>
+
+
+    <div class="popup2" id="popup-2">
+      <div class="overlay"></div>
+      <div class="content">
+        <div class="close-btn" onclick="togglePopup2()">&times;</div>
+        <h2 style="font-size: 10px;">React & Angular</h2>
+        <a href="/html+javascript+css/teslaclone/" target="_blank"><i class="fa fa-car">&nbsp;</i>test (index)</a>
+      </div>
+    </div>
+    <button onclick="togglePopup2()">React & Angular</button>
+
     <!-- Social Account -->
     <h2>On social:</h2>
 
@@ -45,6 +56,9 @@
     <script>
       function togglePopup() {
         document.getElementById("popup-1").classList.toggle("active");
+      }
+      function togglePopup2() {
+        document.getElementById("popup-2").classList.toggle("active");
       }
     </script>
 </body>

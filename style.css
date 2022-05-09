@@ -110,7 +110,7 @@ h2 {
 
 .popup .close-btn {
   cursor: pointer;
-  position: sticky;
+  position: sticky relative;
   float: right;
   top: 1px;
   margin-top: -12px;
@@ -157,4 +157,65 @@ button:hover {
   background-color: #0cd1969c;
   color: #fff;
   border: 2px solid #fff;
+}
+
+.popup2 .overlay {
+  z-index: 1;
+  display: none;
+}
+
+.popup2 .content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  background: rgba(47, 47, 47, 0.925);
+  min-width: auto;
+  height: 50%;
+  z-index: 2;
+  text-align: center;
+  padding: 20px;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  overflow-y: scroll;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+}
+
+.popup2 .content::-webkit-scrollbar {
+  /* WebKit */
+  width: 0;
+  height: 0;
+}
+
+.popup2 .close-btn {
+  cursor: pointer;
+  position: sticky relative;
+  float: right;
+  top: 1px;
+  margin-top: -12px;
+  right: 1px;
+  width: 30px;
+  height: 30px;
+  background: #222;
+  color: #fff;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 30px;
+  text-align: center;
+  border-radius: 50%;
+}
+
+.popup2 .close-btn:hover {
+  color: rgba(255, 0, 0, 0.778);
+}
+
+.popup2.active .overlay {
+  display: block;
+  fill: blur(100px);
+}
+
+.popup2.active .content {
+  transition: all 300ms ease-in-out;
+  transform: translate(-50%, -50%) scale(1);
 }
