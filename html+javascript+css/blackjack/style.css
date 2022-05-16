@@ -55,11 +55,18 @@ button:hover {
   padding: 5px;
 }
 .box {
-  margin: auto;
-  height: 100vh;
-  width: 30%;
+  resize: both;
+  overflow: auto;
+  width: 390px;
+  height: 600px;
   background-color: rgba(148, 149, 149, 0.463);
 }
 .main {
   margin-top: 30%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
