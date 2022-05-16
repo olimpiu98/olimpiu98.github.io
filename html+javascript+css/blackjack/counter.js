@@ -12,4 +12,10 @@ function save() {
     saveBtn.innerHTML = `Today was <em>${count}</em> pers.`;
 }
 
-saveBtn.innerHTML = `Yesterday was <em>${sessionStorage.getItem("sessionStorage")}</em> pers.`;
+let store = sessionStorage.getItem("sessionStorage")
+
+if (store > 0) {
+    saveBtn.innerHTML = `Yesterday was <em>${store}</em> pers.`;
+} else {
+    saveBtn.innerHTML = `No register`;
+}
