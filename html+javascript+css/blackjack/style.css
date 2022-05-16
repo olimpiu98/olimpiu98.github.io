@@ -15,7 +15,7 @@ body {
   justify-content: space-around;
   align-items: center;
 }
-@media (max-width: 896px) {
+@media (max-width: 800px) {
   .resp {
     display: flex;
     flex-direction: column;
