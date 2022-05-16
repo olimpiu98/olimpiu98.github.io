@@ -11,12 +11,30 @@ body {
   background-size: cover;
   text-align: center;
   backdrop-filter: blur(10px);
-  height: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+@media (max-width: 896px) {
+  .resp {
+    display: flex;
+    flex-direction: column;
+    justify-content: center space-evenly;
+  }
+  .box1 {
+    margin-bottom: 100px;
+  }
 }
 
 h1 {
   color: goldenrod;
   padding-bottom: 20px;
+  padding-top: 60px;
+}
+
+em {
+  color: red;
+  font-weight: bold;
 }
 
 #message-el {
@@ -54,7 +72,7 @@ button:hover {
 .btn {
   padding: 5px;
 }
-.box {
+.box1 {
   resize: both;
   overflow: auto;
   width: 390px;
@@ -62,11 +80,6 @@ button:hover {
   background-color: rgba(148, 149, 149, 0.463);
 }
 .main {
-  margin-top: 30%;
-}
-
-body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  margin-top: 10%;
+  margin-bottom: 10%;
 }

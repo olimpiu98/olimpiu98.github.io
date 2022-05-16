@@ -57,4 +57,3 @@ function anotherCard() {
     renderGame();
   }
 }
-console.log(newCard);
