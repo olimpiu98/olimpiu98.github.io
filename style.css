@@ -1,6 +1,7 @@
 body {
   background-image: url("https://i.redd.it/n93k6oc2wab71.png");
   background-size: cover;
+  margin: 0;
   color: #fff;
   text-align: center;
   font-family: "Montserrat", sans-serif;
