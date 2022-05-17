@@ -5,6 +5,7 @@ body {
   text-align: center;
   font-family: "Montserrat", sans-serif;
   backdrop-filter: blur(10px);
+  animation: zoom-in 5s;
   -webkit-animation: zoom-in 5s;
   -moz-animation: zoom-in 5s;
   -ms-animation: zoom-in 5s;
