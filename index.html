@@ -2,7 +2,7 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Linktree</title>
+  <title>Link Tree</title>
   <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet" />
   <script src="https://kit.fontawesome.com/bb6d886fd4.js" crossorigin="faicon"></script>
   <link rel="stylesheet" href="style.css" />
@@ -20,33 +20,32 @@
       <a class="featured" href="https://www.linkedin.com/in/olimpiu-ticudean/" target="_blank"><i
           class="fa fa-linkedin">&nbsp;</i><strong>Linkedin</strong> profile</a>
 
-      <!-- ALL LINKS -->
+      
       <h2>Portfolio:</h2>
+      <!-- First button -->
+      <button onclick="togglePopup()">html, css & javascript</button>
       <div class="popup" id="popup-1">
         <div class="overlay"></div>
         <div class="content">
           <div class="close-btn" onclick="togglePopup()">&times;</div>
           <h2 style="font-size: 10px;">Html, css & javascript</h2>
-          <a href="/html+javascript+css/teslaclone/" target="_blank"><i class="fa fa-car">&nbsp;</i>Tesla (index)</a>
-          <a href="/html+javascript+css/counter/" target="_blank"><i class="fa fa-user-plus">&nbsp;</i>Simple
-            counter</a>
-          <a href="/html+javascript+css/blackjack/ " target="_blank"><i class="fa fa-circle-o-notch">&nbsp;</i>Simple
-            blackjack</a>
+          <a href="/html+javascript+css/teslaclone/" target="_blank"><i class="fa fa-car">&nbsp;</i>Tesla <small>(index)</small></a>
+          <a href="/html+javascript+css/counter/" target="_blank"><i class="fa fa-user-plus">&nbsp;</i>Counter</a>
+          <a href="/html+javascript+css/blackjack/ " target="_blank"><i class="fa fa-circle-o-notch">&nbsp;</i>Blackjack</a>
         </div>
       </div>
-      <button onclick="togglePopup()">html, css & javascript</button>
-
-
-
+      <!-- Second button -->
+      <button onclick="togglePopup2()">Build with React</button>
       <div class="popup2" id="popup-2">
         <div class="overlay"></div>
         <div class="content">
           <div class="close-btn" onclick="togglePopup2()">&times;</div>
-          <h2 style="font-size: 10px;">React & Angular</h2>
-          <a href="/html+javascript+css/teslaclone/" target="_blank"><i class="fa fa-car">&nbsp;</i>test (index)</a>
+          <h2 style="font-size: 10px;">React</h2>
+          <a href="https://oli1.netlify.app/" target="_blank"><i class="fa fa-simplybuilt">&nbsp;</i>Simple <small>(deployed on netlify)</small></a>
+          <a href="https://first-todo-react-o.netlify.app/" target="_blank"><i class="fa fa-th-list">&nbsp;</i>Todo List <small>(deployed on netlify)</small></a>
         </div>
       </div>
-      <button onclick="togglePopup2()">With different frameworks</button>
+
 
       <!-- Social Account -->
       <h2>On social:</h2>
