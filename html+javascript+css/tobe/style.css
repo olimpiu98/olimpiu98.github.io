@@ -1,0 +1,87 @@
+* {
+	margin: 0;
+	font-family: "Ubuntu", sans-serif;
+}
+body {
+	background-color: rgb(46, 27, 117);
+	text-align: center;
+}
+
+#title {
+	color: rgb(216, 216, 216);
+	font-weight: 700;
+	font-size: 4rem;
+	text-shadow: -1px -1px 0 rgba(255, 131, 131, 0.522), 1px -1px 0 rgba(255, 131, 131, 0.522),
+		-1px 1px 0 rgba(255, 97, 97, 0.363), 1px 1px 0 rgba(255, 131, 131, 0.522);
+}
+
+.drum-text {
+	opacity: 1 !important;
+}
+
+.drum {
+	margin-top: 100px;
+	width: 130px;
+	height: 100px;
+	align-self: center;
+	background-color: rgba(165, 165, 165, 0.225);
+	background-image: none;
+	background-position: 0 90%;
+	background-repeat: repeat no-repeat;
+	background-size: 4px 3px;
+	border-radius: 15px 225px 255px 15px 15px 255px 225px 15px;
+	border-style: solid;
+	border-width: 2px;
+	box-shadow: rgba(0, 0, 0, 0.2) 15px 28px 25px -18px;
+	box-sizing: border-box;
+	color: #ffffff;
+	cursor: pointer;
+	display: inline-block;
+	font-family: Neucha, sans-serif;
+	font-size: 2.5rem;
+	font-weight: 900;
+	text-transform: uppercase;
+	line-height: 23px;
+	outline: none;
+	padding: 0.75rem;
+	text-decoration: none;
+	transition: all 235ms ease-in-out;
+	border-bottom-left-radius: 15px 255px;
+	border-bottom-right-radius: 225px 15px;
+	border-top-left-radius: 255px 15px;
+	border-top-right-radius: 15px 225px;
+	user-select: none;
+	-webkit-user-select: none;
+	touch-action: manipulation;
+}
+.drum:hover {
+	background-color: rgb(225, 225, 225);
+	color: rgb(0, 0, 0);
+	box-shadow: rgba(0, 0, 0, 0.3) 2px 8px 8px -5px;
+	transform: translate3d(0, 8px, 0);
+}
+.drum:focus {
+	box-shadow: rgba(0, 0, 0, 0.3) 2px 8px 4px -6px;
+}
+
+.pressed {
+	background-color: rgb(225, 225, 225);
+	color: rgb(0, 0, 0);
+	transform: translate3d(0, 8px, 0);
+	box-shadow: rgba(0, 0, 0, 0.3) 2px 8px 4px -6px;
+}
+
+.info {
+	color: #fff;
+	padding-top: 150px;
+}
+.info-text {
+	font-weight: 600;
+}
+
+footer {
+	margin-top: 175px;
+	left: 0;
+	right: 0;
+	color: rgb(216, 216, 216);
+}
